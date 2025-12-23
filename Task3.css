@@ -1,0 +1,113 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: hsl(199, 93%, 32%);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+h3{
+   color: hsl(199, 93%, 32%);
+   text-align:center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a.active {
+    text-decoration: underline;
+}
+
+/* Main Sections */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Card Layout */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Quiz Options Buttons */
+#quiz-box p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.option-btn {
+    padding: 12px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+/* Hover effect */
+.option-btn:hover {
+    background-color: #d4d4d4;
+    transform: scale(1.02);
+}
+/* Next / Joke Buttons */
+#nextBtn, #jokeBtn {
+    background-color:hsl(199, 93%, 32%);;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    display: block;      
+    margin: 20px auto 0;
+}
+
+#nextBtn:hover, #jokeBtn:hover {
+    background-color: hsl(199, 93%, 32%);;
+}
+
+/* Joke Section */
+#joketext {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(199, 93%, 32%);;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0;
+}
